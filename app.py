@@ -335,7 +335,7 @@ else:
         date = datetime.datetime.now().strftime("%Y-%m-%d")
         import ee
 
-        ee.Initialize(project='bloom-watch-bb5e4')
+        ee.Initialize(project='replace with ur api')
 
         cities_df = pd.read_csv("C:\\Users\\Lenovo\\OneDrive\\Desktop\\bloomalert\\data\\cities.csv")
         species_list = ["🌹Rose", "🌼Jasmine", "🌸Lotus", "🌻Sunflower", "🌷Tulip", "🌼Dandelion", "🌼Marigold", "🌸Lavender", "🌺Orchid", "🌺Hibiscus"]
@@ -426,7 +426,7 @@ else:
         st.header("NDVI Visualization")
 
         import ee
-        ee.Initialize(project='bloom-watch-bb5e4')
+        ee.Initialize(project='replace with ur api')
 
         # Show location selection only inside NDVI module
         city = st.selectbox('Select Area for NDVI', city_data['city'].tolist())
@@ -514,6 +514,7 @@ else:
     )
 import ee
 ee.Initialize(project='your project id')
+
 
 
 
