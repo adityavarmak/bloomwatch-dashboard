@@ -27,7 +27,7 @@ if not firebase_admin._apps:
 db = firestore.client()
 
 # Firebase API Key for auth
-FIREBASE_API_KEY = "AIzaSyC342NgsPE2ZEtMIU720x_KmqFQo2oeKYY"
+FIREBASE_API_KEY = "replace with ur orginal api key"
 species_list = [f" 🌹Rose", "🌼Jasmine", "🌸Lotus", "🌻Sunflower", "🌷Tulip", "🌼Dandelion", "🌼Marigold", "🌸Lavender", "🌺Orchid", "🌺Hibiscus"]
 
 # Sign Up / Sign In functions
@@ -170,7 +170,7 @@ else:
         st.error("No valid city coordinates.")
         st.stop()
 
-    API_KEY = "632444c77e1575aae85b3fe9a9450ff3"
+    API_KEY = "replace with ur api key"
 
     def fetch_weather(city):
         url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric"
@@ -513,7 +513,8 @@ else:
         unsafe_allow_html=True
     )
 import ee
-ee.Initialize(project='bloom-watch-bb5e4')
+ee.Initialize(project='your project id')
+
 
 
 
