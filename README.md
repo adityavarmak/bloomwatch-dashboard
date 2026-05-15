@@ -1,4 +1,4 @@
-# 🌸 BloomWatch Dashboard
+# BloomWatch Dashboard
 
 Earth observation web app for flowering phenology, built for NASA hackathon.
 
